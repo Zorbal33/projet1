@@ -1,0 +1,522 @@
+body{
+		background-color: aliceblue
+}
+
+h2{
+	font-size: 5rem;
+}
+
+/*************************************************/
+/**********************NAVBAR*********************/
+/*************************************************/
+
+.navbar-light{
+	font-family: 'VT323';
+	font-size: 2em;
+    background-color: #FF7761 !important;
+    z-index: 9999;
+}
+
+header .navbar-light .navbar-nav .nav-link{
+	color: white;
+    margin: 0 20%;
+}
+
+.navbar-nav a:hover{
+	color: #274555;
+	text-decoration: underline;
+}
+
+.navbar-brand{
+    width: 8%;
+}
+
+.phoenix-navbar{
+    width: 100%;
+}
+
+/*************************************************/
+/**********************LAYOUT*********************/
+/*************************************************/
+
+
+/*************************************************/
+/**********************ID*************************/
+/*************************************************/
+
+.info{
+    font-family:'Special Elite', cursive;
+}
+
+.perso{
+    font-family:'Special Elite', cursive;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin-top: 4%;
+    padding: 2%;
+}
+
+.wild{
+    font-family:'Special Elite', cursive;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin-top: 4%;
+    padding: 2%;
+    margin-bottom: 6%;
+}
+
+.tampons{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.ficheid{
+    position: relative;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin-top: 6%;
+    padding: 2%;
+    padding-right: 18%;
+    font-size: 1.8em;
+}
+.nopadding {
+    margin-left: 17%;
+    position: absolute;
+}
+.alignementid1{
+    margin-top: 35%;
+    text-align: left;
+    font-family: "VT323"
+}
+
+.alignementid {
+    text-align: left;
+    font-family: "VT323"
+}
+
+.phoenixfond{
+    position: absolute;
+    width:auto;
+    height:100%;
+    margin-left:12%;
+    top:8%;
+    opacity: 0.15;
+    z-index:1;
+    display: none;
+}
+
+.codebarre{
+    font-family:'Libre Barcode 39', cursive;
+    font-size: 1.6em;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.cont{
+    position: relative;
+		margin-top: 75px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.photoid{
+    margin-top: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index:10;
+}
+
+.photoid2{
+    display: none;
+}
+
+@media screen and (min-width: 992px){
+
+    .phoenixfond{
+        display: inline-block;
+    }
+
+    .cadrephid{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+    }
+
+    .photoid2{
+        display: inline-block;
+    }
+
+    .photoid{
+    margin-top: 6%;
+    margin-left: 0;
+    margin-right: 0;
+    }
+}
+
+.photoid2{
+    margin-top: 6%;
+}
+
+
+
+
+/*************************************************/
+/**********************WILDERS********************/
+/*************************************************/
+.presentation{
+    font-family: 'Dosis', sans-serif;
+}
+.wilders{
+    font-family: 'VT323';
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+.leader{
+    text-align: center;
+}
+
+.php, .js{
+    width: 80%;
+    font-size: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.leader img,
+.leader .option{
+    width: 70%;
+}
+
+.optionphp{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'VT323';
+    font-size: 2.5rem;
+    color: #274555;
+}
+
+.optionjs{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'VT323';
+    font-size: 2.5rem;
+    color: #FDC23E;
+}
+
+.phoenix{
+    display: none;
+}
+
+.languages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+		color: #274555;
+}
+
+.card:hover{
+	text-decoration: none;
+	color: #274555;
+}
+
+.card .name{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.duo{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.adeline{
+    background-image: url("pictures/students/adeline.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+.juliette{
+    background-image: url("pictures/students/juliette.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quentin{
+    background-image: url("pictures/students/quentin.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flavien{
+    background-image: url("pictures/students/Flavien.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*************************************************/
+/**********************CONTACT********************/
+/*************************************************/
+
+body {
+    font-family: "dosis";
+    color: #274555;
+}
+
+.button-contact{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'VT323';
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: #274555;
+    border-style: none;
+
+}
+
+.title-contact {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    color: #274555;
+    font-family: "VT323";
+		margin-top: 150px;
+}
+
+.image_maps {
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+
+}
+
+.flextry .image_maps {
+    display: block;
+    margin-left: auto;
+		margin-right: auto;
+}
+
+.contactTexte {
+    text-align: center;
+    color: #274555;
+    font-family: "dosis";
+}
+
+.contactTextemargin {
+    text-align: center;
+    margin-top: 15px;
+    color: #274555;
+    font-weight: bold;
+}
+
+.liencontact {
+    color: #274555;
+    margin-bottom: 10px;
+
+}
+
+:placeholder-shown {
+    border: 1px solid #274555;
+    color: #274555;
+}
+
+::placeholder{
+    font-family: "dosis";
+
+}
+
+.border-select {
+    border: 1px solid #274555;
+    font-family: "dosis";
+    color: #274555;
+}
+
+
+
+/*************************************************/
+/**********************LAYOUT*********************/
+/*************************************************/
+
+
+
+
+/*************************************************/
+/**********************FOOTER*********************/
+/*************************************************/
+
+@media screen and (min-width: 992px){
+    .php, .js{
+        width: 50%;
+        font-size: 2.5rem;
+    }
+    .leader img{
+        width: 50%;
+    }
+    .languages{
+        display: flex;
+        align-content: space-between;
+        text-align: center;
+        flex-direction: row;
+    }
+
+		.img_students{
+			height: 300px;
+			width: 200px;
+		}
+
+		.card{
+			width: auto;
+		}
+
+		.card:hover{
+		    background-color: #FF7761;
+		}
+
+		.card:hover .name{
+		    color: white;
+		}
+		.adeline:hover{
+		    background-image: url("pictures/students/adeline grimace.jpg");
+		}
+		.juliette:hover{
+		    background-image: url("pictures/students/juliette grimace.jpg");
+		}
+		.quentin:hover{
+		    background-image: url("pictures/students/quentin dort.jpg");
+		}
+		.flavien:hover{
+		    background-image: url("pictures/students/flavien grimace.jpg");
+		}
+
+
+    footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    }
+    footer ul:first-child li:first-child, footer ul:first-child li:nth-child(2) {
+    margin-bottom: 13%;
+
+    }
+
+    footer ul:last-child li:first-child {
+        margin-top: 30px;
+    }
+
+    .title{
+    position: absolute;
+    top:20%;
+    width: 100%;
+    }
+}
+
+footer {
+    background-color: #FF7761;
+    text-align: center;
+		font-family: 'VT323';
+		font-size: 1.8rem;
+}
+
+footer h3{
+	font-size: 2.5rem;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+footer ul li a, footer h3 {
+    color: white;
+}
+
+footer h3{
+    font-weight: bold;
+}
+
+footer img {
+    margin-bottom: 15px;
+    margin-top: ;
+}
+
+footer ul:first-child {
+    margin-bottom: 8px;
+}
+
+footer ul li a:hover {
+    color: #274555;
+}
+
+.phoenix-footer
+{
+   height:150px;
+   width:150px;
+}
+
+#blocImage {
+    position: relative;
+}
+
+#blocImage h3{
+    position: absolute;
+    top:30%;
+    width: 50%;
+    left: 25%;
+}
+
+.phoenix-footer
+{
+   height:150px;
+   width:150px;
+}
+
+footer ul:first-child{
+	font-size: 1.5rem;
+}
+
+footer ul:last-child li:first-child {
+		font-size: 2.5rem;
+}
+
+#blocImage {
+    position: relative;
+}
+
+#blocImage h3{
+    position: absolute;
+    top:30%;
+    width: 50%;
+    left: 25%;
+}
